@@ -1,0 +1,16 @@
+data/split-1/
+data/split-2/
+data/split-3/
+data/split-4/
+data/split-5/
+data/time_split/
+data/full_data.json
+data/tufano*
+tokenizer/vocab*
+tokenizer/tufano*
+models/
+.idea/
+*__pycache__*
+data/*
+*/saved_models/
+*.nfs*
