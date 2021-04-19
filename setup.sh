@@ -4,6 +4,8 @@
 function download_from_drive() {
     fileid=${1};
     directory=${2};
+    mkdir -p $directory;
+    cd $directory;
     echo "Downloading $directory";
     FILE="${directory}.zip";
     if [[ -f "$FILE" ]]; then
