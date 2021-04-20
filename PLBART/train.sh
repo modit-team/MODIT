@@ -81,7 +81,7 @@ function fine_tune () {
         --eval-bleu --eval-bleu-detok space --eval-tokenized-bleu \
         --eval-bleu-remove-bpe sentencepiece --eval-bleu-args '{"beam": 5}' \
         --best-checkpoint-metric bleu --maximize-best-checkpoint-metric \
-        --no-epoch-checkpoints --patience 10 \
+        --no-epoch-checkpoints --patience 5 \
         --ddp-backend no_c10d --save-dir $SAVE_DIR 2>&1 | tee ${OUTPUT_FILE};
 }
 
