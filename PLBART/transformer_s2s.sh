@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-BASE_DIR="/proj/arise/arise/saikat/plbart/pretrained";
+
 CODE_BASE=`realpath ../`;
 DATA_DIR="${CODE_BASE}/data/PLBART_DATA";
 langs="java,python,en_XX";
@@ -26,9 +26,6 @@ DATA_SIZE=${2}.${3}.${4};
 SOURCE=source;
 TARGET=target;
 
-#checkpoint_3_25000.pt  checkpoint_6_50000.pt  checkpoint_8_75000.pt checkpoint_11_100000.pt
-PRETRAINED_MODEL_NAME=checkpoint_11_100000.pt
-PRETRAIN=${BASE_DIR}/checkpoints/${PRETRAINED_MODEL_NAME}
 
 PATH_2_DATA=${DATA_DIR}/${DATA_SIZE}/data-bin
 
