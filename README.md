@@ -49,4 +49,7 @@ What is the best strategy to encode input modalities?
 
 ![rq3 result](images/rq3.png)
 
+### Acknowledgement
+A large portion of the code in this repository are borrowed from [PLBART-repository](https://github.com/wasiahmad/PLBART/), [CodeXGlue-repository](https://github.com/microsoft/CodeXGLUE), and [CodeBERT-repository](https://github.com/microsoft/CodeBERT/). We cordially thank theauthors from these repositories to open-source their works. 
+
 
