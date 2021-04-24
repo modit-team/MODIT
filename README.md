@@ -1,4 +1,4 @@
-# MODIT: On Multi-Modal Learning of Editing Source Code.
+# MODIT: on Multi-mOdal learning of eDITing source code.
 
 This is the official code and data repository for MODIT. 
 
